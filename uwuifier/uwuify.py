@@ -13,6 +13,8 @@ def uwuify_string(input_string):
     for ch in input_string:
         if ch in "lr":
             ch = 'w'
+        elif ch in "LR":
+            ch = 'W'
         result += ch
 
     return result
